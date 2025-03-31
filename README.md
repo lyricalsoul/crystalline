@@ -3,11 +3,11 @@
 ## Running
 You can run the CLI right now.
 ```bash
-go run main.go host:port
+go run cli.go host:port
 ```
 Where `host:port` is the address of the SeedLink server you want to connect to. For example:
 ```bash
-go run main.go seisrequest.iag.usp.br:18000
+go run cli.go seisrequest.iag.usp.br:18000
 ```
 This will connect to the Universidade de São Paulo's SeedLink server, ran by the Instituto de Astronomia, Geofísica e Ciências Atmosféricas (IAG/USP).
 
